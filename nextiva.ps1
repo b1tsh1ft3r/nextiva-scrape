@@ -50,9 +50,6 @@ Do {
      $f = $e -creplace "unknown",      " - <img src=""images/signout.jpg""> <br>"
      $1 = $f -creplace "Sign-Out",     " - <img src=""images/signout.jpg""> <br>"
 
-     # this is ghetto.. and lazy below (next 3 lines) should remove as it will cause i/o when we shouldnt use disk for this and
-     # can keep variables in ram.
-
      # INSERT HEADER at top of output html file (banner of sorts)
      # ----------------------------------------------------------
          $HEADER = "<center><head> <meta http-equiv=""refresh"" content=""10""><hr><img src=""images/cd.png""></head><hr><b><u>Phone Status</u></b><hr>"
