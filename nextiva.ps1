@@ -4,7 +4,7 @@
 # Its purely for showing phone status on your own basic html page that can be displayed on a monitor
 # or TV and gets around having their licensing to have exportable stats/api access. Its purely
 # intended as a solution for low budget or no budget situations. IE/Powershell were chosen purely because
-# its what was available when i wrote this tiny solution in our environment.
+# its what was available when i wrote this tiny solution at the time given the environment.
 
 Import-Module .\WASP.DLL            # Import the WASP Powershell DLL for Send-Keys functions
 
